@@ -1,0 +1,24 @@
+{
+  "name": "wa-bot-debt",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot for Automatic Debt and Bill Reminders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "debt",
+    "reminder",
+    "baileys"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "node-cron": "^3.0.3",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
